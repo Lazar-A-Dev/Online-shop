@@ -1,0 +1,48 @@
+.tbl {
+    border-collapse: collapse;
+    width: 25%;
+}
+
+.naslov-tr {
+    background-color: #f2f2f2;
+}
+
+.naslov {
+}
+
+.prikaz {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.prikazLevi {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+}
+
+.prikazDesni {
+    display: flex;
+    flex-direction: column;
+}
+
+.tbl th,
+.tbl td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tbl tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tbl tr:hover {
+    background-color: #ddd;
+}
+
+.divKorpa{
+    display: flex;
+    flex-direction: column;
+}
